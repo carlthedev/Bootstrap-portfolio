@@ -26,7 +26,7 @@
 
 <body id="page-top">
 
-    <header id="">
+    <header>
         <div class="overlay"></div>
         <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
             <source src="assets/img/abstract.mp4" type="video/mp4">
@@ -35,26 +35,39 @@
 
             <nav class="navbar navbar-light ">
 
-                <a class="btn btn-primary border border-dark" style="background-color: #333333;"
-                    href="https://github.com/carlthedev" role="button"><i class="fab fa-github"></i></a>
                 <a class="btn btn-primary border border-dark" style="background-color: #0082ca;"
                     href="https://www.linkedin.com/in/carlcrossdeveloper" role="button"><i
                         class="fab fa-linkedin-in"></i></a>
+
+                <a class="btn btn-primary border border-dark" style="background-color: #033b11;"
+                    href="mailto:carl.cross@yahoo.co.uk" role="button"><i class="far fa-envelope"></i></a>
+                <a class="btn btn-primary border border-dark" style="background-color: #333333;"
+                    href="https://github.com/carlthedev" role="button"><i class="fab fa-github"></i></a>
+                <!--
+                These divs  are for spacing until i have time to figure out how to do it with bootstrap
+                -->
+                <div class="div"></div>
+                <div class="div"></div>
+                <div class="div"></div>
+                <div class="div"></div>
+                <div class="div"></div>
+                <!--
                 <a class="btn btn-primary border border-dark" style="background-color: #056823;"
                     href="https://www.freecodecamp.org/carl-the-dev" role="button"><i
                         class="fab fa-free-code-camp"></i></a>
-                <a class="btn btn-primary border border-dark" style="background-color: #333333;"
-                    href="mailto:carl.cross@yahoo.co.uk" role="button"><i class="far fa-envelope"></i></a>
+                -->
             </nav>
+
             <div class="d-flex h-100 text-center align-items-center" id="text">
                 <div class="w-100 text-white ">
                     <!--<img src="/assets/img/profilePic.jpeg" width="100vw" height="100vw" class="rounded-circle border border-primary" alt=""> -->
+                    <p class="lead mb-0" style="padding-bottom: 20px;">Hi there 👋 , I'm</p>
                     <h1 class="display-3">Carl Cross</h1>
                     <hr class="divider" />
                     <h2 class="h2">Front end web developer</h2>
                     <hr class="divider" />
-                    <p class="lead mb-0">I'm Carl, I look forward to joining your project or working for your company.
-                        If you're looking for an ambitious and enthusiastic developer, please get in touch!</p>
+                    <p class="lead mb-0">A passionate web developer based in the UK.
+                        I bring ideas to life with web technologies.</p>
                     <!--
                     <a class="btn btn-light btn-sm" href="#portfolio">Check out my projects!</a>
                     -->
@@ -119,32 +132,34 @@
     <section>
 
         <h2 class="text-center mt-0">My work</h2>
-            <hr class="divider" />
+        <hr class="divider" />
 
-            <div class="row row-cols-1 row-cols-md-3 g-4 px-4" style="padding-top: 50px;">
-                <div class="col">
-                  <div class="card h-100">
-                    <a href="https://ebs-security-services.netlify.app" class="card-link"><img src="assets/img/ebs.png" class="card-img-top" alt="..."></a>
+        <div class="row row-cols-1 row-cols-md-3 g-4 px-4" style="padding-top: 50px;">
+            <div class="col">
+                <div class="card h-100">
+                    <a href="https://ebs-security-services.netlify.app" class="card-link"><img src="assets/img/ebs.png"
+                            class="card-img-top" alt="..."></a>
                     <div class="card-body text-center">
-                      <h5 class="card-title">EBS Management Services Ltd</h5>
-                      <p class="card-text">(In progress, source code private)</p>
-                      <p class="card-text">Staffing company, made with bootstrap 5 with some customisation.</p>
-                      <a href="https://ebs-security-services.netlify.app" class="btn btn-primary">Visit Site</a>
+                        <h5 class="card-title">EBS Management Services Ltd</h5>
+                        <p class="card-text">(In progress, source code private)</p>
+                        <p class="card-text">Staffing company, made with bootstrap 5 with some customisation.</p>
+                        <a href="https://ebs-security-services.netlify.app" class="btn btn-primary">Visit Site</a>
                     </div>
-                  </div>
                 </div>
-                <div class="col">
-                    <div class="card h-100">
-                      <a href="http://mneautos.co.uk" class="card-link"><img src="assets/img/mne.png" class="card-img-top" alt="..."></a>
-                      <div class="card-body text-center">
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <a href="http://mneautos.co.uk" class="card-link"><img src="assets/img/mne.png" class="card-img-top"
+                            alt="..."></a>
+                    <div class="card-body text-center">
                         <h5 class="card-title">MNE Autos</h5>
                         <p class="card-text">(Project completed, source code private)</p>
                         <p class="card-text">Used car sales website, responsive design made with html and css</p>
                         <a href="https://mne-autos.000webhostapp.com/" class="btn btn-primary">Visit Site</a>
-                      </div>
                     </div>
-                  </div>
-                  <!--
+                </div>
+            </div>
+            <!--
                   <div class="col">
                     <div class="card h-100">
                       <a href="https://carlthedev.github.io/Mobile-first-crypto/" class="card-link"><img src="assets/img/krypto.png" class="card-img-top" alt="..."></a>
@@ -157,30 +172,35 @@
                     </div>
                   </div>
                 -->
-                  <div class="col">
-                    <div class="card h-100">
-                      <a href="https://accessibilitylive.herokuapp.com" class="card-link"><img src="assets/img/xsl.png" class="card-img-top" alt="..."></a>
-                      <div class="card-body text-center">
+            <div class="col">
+                <div class="card h-100">
+                    <a href="https://accessibilitylive.herokuapp.com" class="card-link"><img src="assets/img/xsl.png"
+                            class="card-img-top" alt="..."></a>
+                    <div class="card-body text-center">
                         <h5 class="card-title">Accesibility Live</h5>
                         <p class="card-text">Team app built at kodiri bootcamp
                             using react</p>
                         <a href="https://accessibilitylive.herokuapp.com" class="btn btn-primary">Visit Site</a>
-                        <a href="https://github.com/kodiri/accessibility-live" class="btn btn-primary"><i class="fab fa-github"></i> Source Code</a>
-                      </div>
+                        <a href="https://github.com/kodiri/accessibility-live" class="btn btn-primary"><i
+                                class="fab fa-github"></i> Source Code</a>
                     </div>
-                  </div>
-                  <div class="col">
-                    <div class="card h-100">
-                      <a href="https://carls-portfolio.netlify.app" class="card-link"><img src="assets/img/port.png" class="card-img-top" alt="..."></a>
-                      <div class="card-body text-center">
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <a href="https://carls-portfolio.netlify.app" class="card-link"><img src="assets/img/port.png"
+                            class="card-img-top" alt="..."></a>
+                    <div class="card-body text-center">
                         <h5 class="card-title">Portfolio</h5>
-                        <p class="card-text">Version 1 of my portfolio which i wrote from scratch with only html css and js.</p>
+                        <p class="card-text">Version 1 of my portfolio which i wrote from scratch with only html css and
+                            js.</p>
                         <a href="https://carls-portfolio.netlify.app" class="btn btn-primary">Visit Site</a>
-                        <a href="https://github.com/carlthedev/Portfolio-v1" class="btn btn-primary"><i class="fab fa-github"></i> Source Code</a>
-                      </div>
+                        <a href="https://github.com/carlthedev/Portfolio-v1" class="btn btn-primary"><i
+                                class="fab fa-github"></i> Source Code</a>
                     </div>
-                  </div>
-              </div>
+                </div>
+            </div>
+        </div>
 
     </section>
     <section class="page-section" id="about">
@@ -189,7 +209,8 @@
                 <div class="col-lg-8 text-center">
                     <h2 class="text-black mt-0">More about me.</h2>
                     <hr class="divider divider-primary" />
-                    <p class="text-black-75 mb-4">I'm a self taught developer who works mainly on the front end. I'm always learning and improving so
+                    <p class="text-black-75 mb-4">I'm a self taught developer who works mainly on the front end. I'm
+                        always learning and improving so
                         that I can become a full stack Javascript ninja!</p>
                 </div>
             </div>
@@ -201,27 +222,37 @@
     <footer class="bg-light py-3">
 
         <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-8 text-center">
-                        <h2 class="text-black mt-0">Contact me!</h2>
-                        <hr class="divider divider-primary" />
-                        <p class="text-black-75 mb-4">Feel free to contact me through any platform below and i'll be sure to get back to you asap!</p>
-                    </div>
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <h2 class="text-black mt-0">Contact me!</h2>
+                    <hr class="divider divider-primary" />
+                    <p class="text-black-75 mb-4">Feel free to contact me through any platform below and i'll be sure to
+                        get back to you asap!</p>
                 </div>
             </div>
+        </div>
 
         <nav class="navbar navbar-light container ">
+
+            <div class="div"></div>
+            <div class="div"></div>
 
             <a class="btn btn-primary border border-dark" style="background-color: #333333;"
                 href="https://github.com/carlthedev" role="button"><i class="fab fa-github"></i></a>
             <a class="btn btn-primary border border-dark" style="background-color: #0082ca;"
                 href="https://www.linkedin.com/in/carlcrossdeveloper" role="button"><i
                     class="fab fa-linkedin-in"></i></a>
-            <a class="btn btn-primary border border-dark" style="background-color: #056823;"
+            <!--
+                <a class="btn btn-primary border border-dark" style="background-color: #056823;"
                 href="https://www.freecodecamp.org/carl-the-dev" role="button"><i
                     class="fab fa-free-code-camp"></i></a>
-            <a class="btn btn-primary border border-dark" style="background-color: #333333;"
+            -->
+
+            <a class="btn btn-primary border border-dark" style="background-color: #033b11;"
                 href="mailto:carl.cross@yahoo.co.uk" role="button"><i class="far fa-envelope"></i></a>
+
+            <div class="div"></div>
+            <div class="div"></div>
         </nav>
         <div class="container px-4 px-lg-5" style="padding-top: 20px;">
             <div class="small text-center text-muted">Carl Cross - 2021</div>

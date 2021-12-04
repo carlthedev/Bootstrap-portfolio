@@ -30,7 +30,7 @@ header .overlay {
   height: 100%;
   width: 100%;
   background: rgba(8, 86, 202, 0.623);
-  opacity: 0.3;
+  opacity: 0.2;
   z-index: 3;
   box-shadow: inset 60px 60px 60px black, inset -60px -60px 60px black;
 }
